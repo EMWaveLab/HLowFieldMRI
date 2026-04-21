@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EMWaveLab/HLowFieldMRI"
+version: "1.0"
+date-released: 2026-04-21
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19679511
+authors:
+  - family-names: Masaquiza-Caiza
+    given-names: A. R.
+  - family-names: Rodriguez-Duarte
+    given-names: D. O.
+repository-code: "https://doi.org/10.5281/zenodo.19679511"
+license: "MIT"
