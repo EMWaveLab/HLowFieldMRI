@@ -216,7 +216,7 @@ html,body{width:100%;height:100%;background:var(--bg);color:var(--text);font-fam
 
 <script>
 // ═══════════════════════════════════════════════════════════════
-//  CUBOID FIELD (magpylib-exact)
+//  CUBOID FIELD
 // ═══════════════════════════════════════════════════════════════
 const INV4PI=1/(4*Math.PI);
 function cuboidB_local(ox,oy,oz,dx,dy,dz,Px,Py,Pz){
@@ -267,7 +267,7 @@ class Collection{
 }
 
 // ═══════════════════════════════════════════════════════════════
-//  WORKER SOURCE  (physics duplicated so it runs off-main-thread)
+//  WORKER SOURCE
 // ═══════════════════════════════════════════════════════════════
 const WORKER_SRC=`
 const INV4PI=1/(4*Math.PI);
@@ -462,7 +462,7 @@ function computeField(){
   }
 }
 
-// Extract 2D slices from the stored 3D field — no recomputation needed
+// Extract 2D slices from the stored 3D field
 function extractSlices(){
   if(!S.field)return;
   const{Bx3,By3,Bz3,Bm3,n,xs,ys,zs}=S.field;
