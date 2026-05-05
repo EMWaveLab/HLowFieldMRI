@@ -2,7 +2,7 @@
 
 An interactive, browser-based simulator for analysing Halbach cylinder magnet arrays used in low-field MRI systems. The tool computes the magnetic field produced by an arbitrary configuration of permanent-magnet rings, visualises it in real time as 2D field maps and a 3D scene, and reports homogeneity metrics over a cylindrical ROI.
 
-No server, no installation — open the HTML file in any browser.
+No server, no installation — open the main HTML file in any browser.
 
 ---
 
